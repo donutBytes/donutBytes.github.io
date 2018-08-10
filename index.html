@@ -1,43 +1,325 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Alexander Bickham</title>
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="parallax.min.js"></script>
-
-	<style type="text/css">		
-		body {
-			background-color: rgb(167, 167, 167);
-		}
-	</style>
+  <link rel="icon" href="https://www.favicon.cc/logo3d/811763.png">
+  <title>
+    Alexander Bickham
+  </title>
 </head>
-<body>
-	<div class="container " stlye="height:200px">
-		<div class="row" style="text-align: center">
-			<h1>Alexander Bickham</h1>
-		</div>
-	</div>
-		<div class="flex">
-			<div class="window" id="banner" style="padding: 10% 1rem;"></div>
-		</div>
-	<div class="container">
-		<br> 
-		<!-- <div class="container"> -->
-		<!-- </div> -->
-		
-		<img class="" style="width:200;height:200px;border:1px solid #000;" src="https://www.metalab.csun.edu/img/logo/metalab-logo.svg" alt="META+LAB">
-	</div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax.min.js"></script>
+<style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  .parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1444201716572-c60ec66d0494?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+
+<!-- Container element -->
+<body class="w3-light-grey parallax">
+  <!-- Start Landing Card -->
+  <!-- <div class="w3-container w3-black w3-center" style="background-color: black; background-size: cover;background-repeat: no-repeat; min-height: 950px">
+
+  </div> -->
+  <!-- End Landing Card -->
+  
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="alex.jpg" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-red">
+            </div>
+          </div>
+          <div class="w3-container w3-margin-bottom">
+            <!-- Description -->
+            <strong>
+              <h2 class="w3-center">Alexander Bickham</h2>
+            </strong>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-red"></i>Web Developer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-red"></i>Los Angeles, CA</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-red"></i><a href="mailto:alexander.bickham.885@gmail.com">alexander.bickham.885@gmail.com</a></p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-red"></i><a href="tel:818-641-7889">(818) 835-5825</a></p>
+            <div class="row justify-content-md-center w3-padding-16">
+              <div class="col-md-12 col-lg-8">
+                <a class="w3-button w3-red w3-round-xxlarge w3-medium" style="width: 100%" href="AlexanderBickham_Resume.pdf" target="_blank">
+                  <i class="fas fa-cloud-download-alt"></i>
+                  </i> Download my Resume!
+                </a>
+              </div>
+            </div>
+            <hr>
+            <!-- Skills -->
+            <p class="w3-large"><b><i class="fa fa-terminal fa-fw w3-margin-right w3-text-red"></i>Skills</b></p>
+            <p><b>Laravel</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:90%">90%</div>
+            </div>
+            <p><b>PHP</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:90%">90%</div>
+            </div>
+            <p><b>Javascript</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:80%">80%</div>
+            </div>
+            <p><b>Linux</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:80%">80%</div>
+            </div>
+            <p><b>MySQL</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:75%">75%</div>
+            </div>
+            <p><b>Vue</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:75%">75%</div>
+            </div>
+            <p><b>HTML</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:70%">70%</div>
+            </div>
+            <p><b>Python</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:60%">60%</div>
+            </div>
+            <p><b>CSS</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:50%">50%</div>
+            </div>
+            <p><b>PowerShell</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:50%">50%</div>
+            </div>
+            <br>
+            <!-- Languages -->
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-red"></i>Speaking Languages</b></p>
+            <p>English</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center w3-red" style="height:24px;width:100%">Native Speaker</div>
+            </div>
+            <hr>
+          </div>
+        </div>
+      <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>About Me</h2>
+          <div class="w3-container">
+            <h4>
+              <b>Hello and Welcome!</b>
+            </h4>
+            <p>My name is Alex Bickham, and I am a <b>problem solver.</b></p>
+            <p>
+              My entire life i've loved solving puzzles. Something about breaking down a situation and coming up with the logical solution is such an exhilirating feeling. 
+              This passion for solving puzzles evolved into a love of video games, board games, and coding alike. 
+              Video games were a wonderful mix of stories and the puzzles I was already so fond of. 
+              Whether maneuvering my way through a castle to save a Princess or exploring a new world and creating anything imaginable, video games became my creative and logical outlet.
+            </p>
+            <p>
+              Eventually I found the old classic, Dungeons & Dragons. 
+              It was amazing because there was so much depth to the world that seemed to bound by the paper it was written on, yet could feel so large in your mind.
+              Creating a character and trying to work the system that was put in place was a challenge in itself, and required a great deal of imagination to make it come alive.
+              
+            </p>
+            <p>
+              When I program, I picture the end goal being a finished product and each line is just another puzzle piece that you have to carefully and elegantly find it's place.
+              There's a delicate art to it, and it takes a certain type of persistence to achieve something. Sometmes it feels like you're banging your head against a wall. 
+              Sometimes it feels like you've figure skated in the Olympics so gracefully that won the Gold Medal.
+              It's all a balancing act. Without balance in our lives, just like our code, will become so convoluted that even you can't make sense of it.
+              Programming is the one hobby I never get tired, because it's never the same situation. It constantly keeps you thinking and on your toes.
+              
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fas fa-building fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>
+            Work Experience
+          </h2>
+          <hr>
+          <!-- PennyMac Experience -->
+          <div class="w3-container">
+            <a href="https://www.pennymacusa.com/">
+              <img style="float: right; width:100px;height:100px;" src="pennymac-loan-services-logo.svg" alt="PennyMac Loan Services">
+              <!-- <img class="pull-right" style="width:100px;height:100px;" src="pennymac-loan-services-logo.svg" alt="PennyMac Loan Services"> -->
+            </a>
+            <h4><b>PennyMac Loan Services</b></h4>
+            <h5 class="w3-opacity"><b>Operations Intern</b></h5>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - <span class="w3-tag w3-red w3-round">Current</span></h6>
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Agoura Hills, CA</h6>
+            <ul>
+              <li>
+                Monitored Linux and Windows Virtual\Physical environments using NAGIOS application monitoring system
+              </li>
+              <li>
+                Received production/staging escalation to resolve via troubleshooting, communication, & subsequent updates
+              </li>
+              <li>
+                Responsible for restoring, troubleshooting and working with Commvault backup solution
+              </li>
+              <li>
+                Responsible for deployment of Linux code changes through Jenkins/ Chef/ Gitlab/ Rundeck
+              </li>
+              <li>
+                Provide application Support for and Windows Server 2008R2/2012R2 via VMware & Horizon View
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <!-- MetaLab Experience -->
+          <div class="w3-container">
+            <a href="https://www.metalab.csun.edu/">
+              <img style="float:right;width:100px;height:100px;border:1px solid #000;" src="https://www.metalab.csun.edu/img/logo/metalab-logo.svg" alt="META+LAB">
+            </a>
+            <h4><b>META+Lab</b></h4>
+            <h5 class="w3-opacity"><b>Full Stack Developer / Scrum Master</b></h5>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - May 2018</h6>
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Northridge, CA</h6>
+            <ul style="list-style-type: disc;">
+              <li>
+                Worked within interdisciplinary teams on applications of varying size and complexity
+              </li>
+              <li>
+                Led regular Agile Scrum ceremonies as part of weekly development cycle to assign and refine tasks
+              </li>
+              <li>
+                Met with clients and stakeholders for gathering needs and requirements and for regular application demos
+              </li>
+              <li>
+                Mentored incoming student developers to utilize established coding and testing conventions
+              </li>
+              <li>
+                Coordinated with Product Owner to translate product requirements into development tasks
+              </li>
+              <li>
+                Leveraged automated integration and unit testing and version control as part of development process
+              </li>
+              <li>
+                Integrated RESTful APIs to retrieve from and submit to previously-established institutional databases
+              </li>
+              <li>
+                Planned, designed, and implemented local databases for use within specific applications
+              </li>
+              <li>
+                Developed expressive and functional UI that dynamically loads data in response to user action
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <!-- PRCS Experience -->
+          <div class="w3-container">
+            <a href="http://www.goprcs.org/">
+              <img style="float:right;width:100px;height:100px;" src="https://static.wixstatic.com/media/a4b768_0654709b17c141f9975026b75cfb9478~mv2.jpg/v1/fill/w_110,h_110,al_c,q_80,usm_0.66_1.00_0.01/a4b768_0654709b17c141f9975026b75cfb9478~mv2.jpg" alt="META+LAB">
+            </a>
+            <h4><b>Porter Ranch Community School</b></h4>
+            <h5 class="w3-opacity"><b>Teacher's Assistant / Special Ed Assistant</b></h5>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2013 - May 2016</h6>
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Porter Ranch, CA</h6>
+            <ul style="list-style-type: disc;">
+              <!-- <li>
+                Need job descrition...
+              </li> -->
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>Education</h2>
+          <div class="w3-container">
+            <h4><b>California State University Northridge</b></h4>
+            <h6><i>Bachelor in Computer Science</i></h6>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Graduated May 2018</h6>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <!-- End Right Column -->
+
+      <!-- Start Bottom Card -->
+      <div class="w3-row">
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>Projects</h2>
+          <div class="w3-container">
+            Under Construction: Soon to come...
+            <!-- <div class="w3-third">
+              Test
+            </div>
+            <div class="w3-third">
+              Test
+            </div>
+            <div class="w3-third">
+              Test
+            </div> -->
+            <hr>
+          </div>
+        </div>
+      </div>
+      <!-- End Bottom Card -->
+    <!-- End Grid -->
+    </div>
+  <!-- End Page Container -->
+  </div>
+  
+  <footer class="w3-container w3-dark-gray w3-center w3-margin-top" style="background-image: url(laptop.jpg); background-size: cover; background-repeat: no-repeat; min-height: 950px">
+    <div class="section w3-padding-16" style="margin-top: 230px">
+      <h3>Contact Me</h3>
+      <div class="w3-container w3-center">
+        <div class="row justify-content-md-center w3-padding-16">
+          <div class="col-md-12 col-lg-8">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="mailto:alexander.bickham.885@gmail.com">
+              <i class="fas fa-envelope"></i></i> Email Me!
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-md-center w3-padding-16">
+          <div class="col-md-12 col-lg-8">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="https://github.com/donutBytes" target="_blank">
+              <i class="fab fa-github"></i></i> Github
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-md-center w3-padding-16">
+          <div class="col-md-12 col-lg-8">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="https://www.linkedin.com/in/alexbickham/" target="_blank">
+              <i class="fab fa-linkedin"></i></i> LinkedIn
+            </a>
+          </div>
+        </div>
+        <h3>Thanks for coming!</h3>
+      </div>
+    </div>
+  </footer>
 </body>
 
 <script type="text/javascript">
-	$(document).on('ready', function() {
-	    $('#banner').parallax({imageSrc: "https://images.unsplash.com/photo-1444201716572-c60ec66d0494?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="});	
-	});
+  $(document).on('ready', function () {
+    $('#banner').parallax({ imageSrc: "https://images.unsplash.com/photo-1444201716572-c60ec66d0494?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" });
+  });
 </script>
 </html>
