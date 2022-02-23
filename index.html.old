@@ -18,8 +18,7 @@
   html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   .parallax {
     /* The image used */
-    background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-    /* background-image: url("https://images.unsplash.com/photo-1444201716572-c60ec66d0494?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="); */
+    background-image: url("https://images.unsplash.com/photo-1444201716572-c60ec66d0494?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
 
     /* Set a specific height */
     height: 500px;
@@ -49,7 +48,7 @@
         <div class="w3-white w3-text-grey w3-card-4">
           <div class="w3-display-container">
             <img src="alex.jpg" style="width:100%" alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-teal">
+            <div class="w3-display-bottomleft w3-container w3-text-red">
             </div>
           </div>
           <div class="w3-container w3-margin-bottom">
@@ -57,14 +56,13 @@
             <strong>
               <h2 class="w3-center">Alexander Bickham</h2>
             </strong>
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack Engineer / Site Reliability Engineer</p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Los Angeles, CA</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:alexander.bickham.885@gmail.com">alexander.bickham.885@gmail.com</a></p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>TBD</p>
-            <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="tel:818-835-5825">(818) 835-5825</a></p> -->
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-red"></i>Full Stack Developer / Systems Engineer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-red"></i>Los Angeles, CA</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-red"></i><a href="mailto:alexander.bickham.885@gmail.com">alexander.bickham.885@gmail.com</a></p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-red"></i><a href="tel:818-835-5825">(818) 835-5825</a></p>
             <div class="row justify-content-md-center w3-padding-16">
               <div class="col-md-12 col-lg-8">
-                <a class="w3-button w3-teal w3-round-xxlarge w3-medium" style="width: 100%" href="Alexander_Bickham_Resume.pdf" target="_blank">
+                <a class="w3-button w3-red w3-round-xxlarge w3-medium" style="width: 100%" href="Alexander_Bickham_Resume.pdf" target="_blank">
                   <i class="fas fa-cloud-download-alt"></i>
                   </i> Download my Resume!
                 </a>
@@ -72,55 +70,53 @@
             </div>
             <hr>
             <!-- Skills -->
-            <p class="w3-large"><b><i class="fa fa-terminal fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-            <h6><b>Languages:</b></h4> 
-              <span class="w3-tag w3-teal">Java</span>
-              <span class="w3-tag w3-teal">C</span>
-              <span class="w3-tag w3-teal">C++</span>
-              <span class="w3-tag w3-teal">C#</span>
-              <span class="w3-tag w3-teal">Python</span>
-              <span class="w3-tag w3-teal">Powershell</span>
-              <span class="w3-tag w3-teal">PHP</span>
-              <br>
-              <span class="w3-tag w3-teal">MySQL</span>
-              <span class="w3-tag w3-teal">HTML</span>
-              <span class="w3-tag w3-teal">CSS(SASS)</span>
-              <span class="w3-tag w3-teal">Javascript</span>
-              <span class="w3-tag w3-teal">jQuery</span>
-              <br>
-              <h6><b>Process:</b></h6> 
-              <span class="w3-tag w3-teal">Agile</span>
-              <span class="w3-tag w3-teal">Scrum framework</span>
-              <span class="w3-tag w3-teal">Waterfall</span>
-              <br>
-              <h6><b>Tools:</b></h6>
-              <span class="w3-tag w3-teal">Active Directory</span> 
-              <span class="w3-tag w3-teal">VMware</span> 
-              <span class="w3-tag w3-teal">Jenkins</span> 
-              <span class="w3-tag w3-teal">Chef</span> 
-              <span class="w3-tag w3-teal">AWS</span> 
-              <span class="w3-tag w3-teal">GIT</span> 
-              <span class="w3-tag w3-teal">Github</span> 
-              <span class="w3-tag w3-teal">GitLab</span> 
-              <br>
-              <h6><b>Frameworks:</b></h6> 
-              <span class="w3-tag w3-teal">Laravel</span> 
-              <span class="w3-tag w3-teal">Express</span> 
-              <span class="w3-tag w3-teal">Vue</span> 
-              <span class="w3-tag w3-teal">VueX</span> 
-              <span class="w3-tag w3-teal">Flask</span> 
-              <br>
-              <h6><b>OS:</b></h6> 
-              <span class="w3-tag w3-teal">Windows</span> 
-              <span class="w3-tag w3-teal">Linux</span> 
-              <span class="w3-tag w3-teal">Mac</span> 
-              <br>
+            <p class="w3-large"><b><i class="fa fa-terminal fa-fw w3-margin-right w3-text-red"></i>Skills</b></p>
+            <p><b>Laravel</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:90%">90%</div>
+            </div>
+            <p><b>PHP</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:90%">90%</div>
+            </div>
+            <p><b>Javascript</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:80%">80%</div>
+            </div>
+            <p><b>Linux</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:80%">80%</div>
+            </div>
+            <p><b>MySQL</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:75%">75%</div>
+            </div>
+            <p><b>Vue</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:75%">75%</div>
+            </div>
+            <p><b>HTML</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:70%">70%</div>
+            </div>
+            <p><b>Python</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:60%">60%</div>
+            </div>
+            <p><b>CSS</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:50%">50%</div>
+            </div>
+            <p><b>PowerShell</b></p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:50%">50%</div>
+            </div>
+            <br>
             <!-- Languages -->
-            <hr>
-            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Speaking Languages</b></p>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-red"></i>Speaking Languages</b></p>
             <p>English</p>
             <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-center w3-teal" style="height:24px;width:100%">Native Speaker</div>
+              <div class="w3-round-xlarge w3-center w3-red" style="height:24px;width:100%">Native Speaker</div>
             </div>
             <hr>
           </div>
@@ -132,7 +128,7 @@
       <div class="w3-twothird">
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-16">
-            <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About Me</h2>
+            <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>About Me</h2>
           <div class="w3-container">
             <h4>
               <b>Hello and Welcome!</b>
@@ -145,16 +141,28 @@
               Whether maneuvering my way through a castle to save a Princess or exploring a new world and creating anything imaginable, video games became my creative and logical outlet.
             </p>
             <p>
-
+              Eventually I found the old classic, Dungeons & Dragons. 
+              It was amazing because there was so much depth to the world that seemed to bound by the paper it was written on, yet could feel so large in your mind.
+              Creating a character and trying to work the system that was put in place was a challenge in itself, and required a great deal of imagination to make it come alive.
+              
+            </p>
+            <p>
+              When I program, I picture the end goal being a finished product and each line is just another puzzle piece that you have to carefully and elegantly find it's place.
+              There's a delicate art to it, and it takes a certain type of persistence to achieve something. Sometmes it feels like you're banging your head against a wall. 
+              Sometimes it feels like you've figure skated in the Olympics so gracefully that won the Gold Medal.
+              It's all a balancing act. Without balance in our lives, just like our code, will become so convoluted that even you can't make sense of it.
+              Programming is the one hobby I never get tired, because it's never the same situation. It constantly keeps you thinking and on your toes.
+              
             </p>
             <hr>
           </div>
         </div>
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-16">
-            <i class="fas fa-building fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+            <i class="fas fa-building fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>
             Work Experience
           </h2>
+          <hr>
           <!-- PennyMac Experience -->
           <div class="w3-container">
             <a href="https://www.pennymacusa.com/">
@@ -162,22 +170,25 @@
               <!-- <img class="pull-right" style="width:100px;height:100px;" src="pennymac-loan-services-logo.svg" alt="PennyMac Loan Services"> -->
             </a>
             <h4><b>PennyMac Loan Services</b></h4>
-            <h5 class="w3-opacity"><b>Site Reliability Engineer</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - Nov 2021</h6>
-            <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6> -->
-            <h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Agoura Hills, CA</h6>
+            <h5 class="w3-opacity"><b>IT Operations System Engineer</b></h5>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - Nov 2021</h6>
+            <!-- <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - <span class="w3-tag w3-red w3-round">Current</span></h6> -->
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Agoura Hills, CA</h6>
             <ul>
               <li>
-                NewRelic SME & primary engineer leading migration from existing Nagios based monitoring system to a dynamic monitoring and observability
+                Created application and cross platform system monitoring using NAGIOS to integrate into Opsview and ServiceNow’s Event Management
               </li>
               <li>
-                Maintained internal Event Management system sourced in ServiceNow to handle reporting and automation of alert conversion to actionable tickets
+                Developed automation scripts for existing manual processes to maximize up time and minimize risk
               </li>
               <li>
-                Developed automation scripts for existing processes to maximize up time
+                Received production/staging escalation to resolve via troubleshooting, communication, & subsequent updates
               </li>
               <li>
-                Responsible for deployment and maintenance of Windows/Linux code changes through Jenkins, Chef, & Gitlab CI/CD
+                Responsible for using and maintaining Commvault backup solution in order to ensure safety of sensitive data
+              </li>
+              <li>
+                Responsible for deployment and maintenance of Linux code changes through Jenkins, Chef, & Gitlab
               </li>
               <li>
                 Provide application Support for and Windows and Linux virtualized servers in AWS & VMware
@@ -192,8 +203,8 @@
             </a>
             <h4><b>META+Lab</b></h4>
             <h5 class="w3-opacity"><b>Full Stack Developer / Scrum Master</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - May 2018</h6>
-            <h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Northridge, CA</h6>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - May 2018</h6>
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Northridge, CA</h6>
             <ul style="list-style-type: disc;">
               <li>
                 Led regular Agile Scrum ceremonies as part of weekly development cycle to assign and refine tasks
@@ -205,7 +216,7 @@
                 Coordinated with Product Owner to translate product requirements into development tasks
               </li>
               <li>
-                Leveraged automated integration (Travis CI), unit testing and version control as part of development process
+                Leveraged automated integration and unit testing and version control as part of development process
               </li>
               <li>
                 Integrated RESTful APIs to retrieve from and submit to previously-established institutional databases
@@ -223,8 +234,8 @@
             </a>
             <h4><b>Porter Ranch Community School</b></h4>
             <h5 class="w3-opacity"><b>Teacher's Assistant / Special Ed Assistant</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2013 - May 2016</h6>
-            <h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Porter Ranch, CA</h6>
+            <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2013 - May 2016</h6>
+            <h6 class="w3-text-red"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Porter Ranch, CA</h6>
             <ul style="list-style-type: disc;">
               <!-- <li>
                 Need job descrition...
@@ -234,11 +245,11 @@
           </div>
         </div>
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>Education</h2>
           <div class="w3-container">
             <h4><b>California State University Northridge</b></h4>
             <h6><i>Bachelor in Computer Science</i></h6>
-            <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Graduated May 2018</h6> -->
+            <!-- <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Graduated May 2018</h6> -->
             <hr>
           </div>
         </div>
@@ -246,37 +257,22 @@
       <!-- End Right Column -->
 
       <!-- Start Bottom Card -->
-      <div class="w3-row">
+      <!-- <div class="w3-row">
         <div class="w3-container w3-card w3-white">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-          
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>Projects</h2>
           <div class="w3-container">
-            <h4><b>NEWRELIC ALERT SYSTEM MIGRATION</b></h4>
-            <h5 class="w3-opacity"><b>PennyMac</b></h5>
-            <ul style="list-style-type: disc;">
-              <li>
-                Acting Scrum Master leading migration from existing Nagios based monitoring system to a dynamic alert system based in NewRelic
-              </li>
-            </ul>
-            <h4><b>TEN LETTERS OF LEADERS</b></h4>
-            <h5 class="w3-opacity"><b>META+Lab</b></h5>
-            <ul style="list-style-type: disc;">
-              <li>
-                Developed a mobile web application to virtualize an existing paper-based systemto track goals and measure progress on a week-by-week basis
-              </li>
-              <li>
-                Represented development team as the Scrum Master in client meetings to demonstrate development progress, get feedback on design directions, and address outstanding questions from development team
-              </li>
-            </ul>
-            <h4><b>INTERNAL MANAGEMENT SYSTEM (IMS)</b></h4>
-            <h5 class="w3-opacity"><b>META+Lab</b></h5>
-            <ul style="list-style-type: disc;">
-              <li>
-                Developed an event-driven single-page web application to keep track of all business transactions and records for the Official Police Garages of Los Angeles. Addressed bugs and errors discovered during team and client-based user testing throughout development process on multiple features
-              </li>
-            </ul>
+            Under Construction: Soon to come...
+            <div class="w3-third">
+              Test
+            </div>
+            <div class="w3-third">
+              Test
+            </div>
+            <div class="w3-third">
+              Test
+            </div> -->
+            <hr>
           </div>
-
         </div>
       </div>
       <!-- End Bottom Card -->
@@ -292,21 +288,21 @@
       <div class="w3-container w3-center">
         <div class="row justify-content-md-center w3-padding-16">
           <div class="col-md-12 col-lg-8">
-            <a class="w3-button w3-teal w3-round-xxlarge w3-xlarge" href="mailto:alexander.bickham.885@gmail.com">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="mailto:alexander.bickham.885@gmail.com">
               <i class="fas fa-envelope"></i></i> Email Me!
             </a>
           </div>
         </div>
         <div class="row justify-content-md-center w3-padding-16">
           <div class="col-md-12 col-lg-8">
-            <a class="w3-button w3-teal w3-round-xxlarge w3-xlarge" href="https://github.com/donutBytes" target="_blank">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="https://github.com/donutBytes" target="_blank">
               <i class="fab fa-github"></i></i> Github
             </a>
           </div>
         </div>
         <div class="row justify-content-md-center w3-padding-16">
           <div class="col-md-12 col-lg-8">
-            <a class="w3-button w3-teal w3-round-xxlarge w3-xlarge" href="https://www.linkedin.com/in/alexbickham/" target="_blank">
+            <a class="w3-button w3-red w3-round-xxlarge w3-xlarge" href="https://www.linkedin.com/in/alexbickham/" target="_blank">
               <i class="fab fa-linkedin"></i></i> LinkedIn
             </a>
           </div>
